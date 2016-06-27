@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F372B1E1D20D66600A47804 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F372B1D1D20D66600A47804 /* main.m */; };
+		1F372B211D20D66600A47804 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F372B201D20D66600A47804 /* AppDelegate.m */; };
+		1F372B241D20D66600A47804 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F372B231D20D66600A47804 /* ViewController.m */; };
+		1F372B271D20D66600A47804 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F372B251D20D66600A47804 /* Main.storyboard */; };
+		1F372B291D20D66600A47804 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F372B281D20D66600A47804 /* Assets.xcassets */; };
+		1F372B2C1D20D66600A47804 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F372B2A1D20D66600A47804 /* LaunchScreen.storyboard */; };
+		1F372B371D20D66600A47804 /* ZQWebViewHeaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F372B361D20D66600A47804 /* ZQWebViewHeaderTests.m */; };
+		1F372B421D20D66600A47804 /* ZQWebViewHeaderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F372B411D20D66600A47804 /* ZQWebViewHeaderUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F372B331D20D66600A47804 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F372B111D20D66500A47804 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F372B181D20D66500A47804;
+			remoteInfo = ZQWebViewHeader;
+		};
+		1F372B3E1D20D66600A47804 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F372B111D20D66500A47804 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F372B181D20D66500A47804;
+			remoteInfo = ZQWebViewHeader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F372B191D20D66500A47804 /* ZQWebViewHeader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZQWebViewHeader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F372B1D1D20D66600A47804 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F372B1F1D20D66600A47804 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1F372B201D20D66600A47804 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1F372B221D20D66600A47804 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1F372B231D20D66600A47804 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1F372B261D20D66600A47804 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F372B281D20D66600A47804 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F372B2B1D20D66600A47804 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F372B2D1D20D66600A47804 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F372B321D20D66600A47804 /* ZQWebViewHeaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZQWebViewHeaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F372B361D20D66600A47804 /* ZQWebViewHeaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZQWebViewHeaderTests.m; sourceTree = "<group>"; };
+		1F372B381D20D66600A47804 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F372B3D1D20D66600A47804 /* ZQWebViewHeaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZQWebViewHeaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F372B411D20D66600A47804 /* ZQWebViewHeaderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZQWebViewHeaderUITests.m; sourceTree = "<group>"; };
+		1F372B431D20D66600A47804 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F372B161D20D66500A47804 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F372B2F1D20D66600A47804 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F372B3A1D20D66600A47804 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F372B101D20D66500A47804 = {
+			isa = PBXGroup;
+			children = (
+				1F372B1B1D20D66600A47804 /* ZQWebViewHeader */,
+				1F372B351D20D66600A47804 /* ZQWebViewHeaderTests */,
+				1F372B401D20D66600A47804 /* ZQWebViewHeaderUITests */,
+				1F372B1A1D20D66500A47804 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F372B1A1D20D66500A47804 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F372B191D20D66500A47804 /* ZQWebViewHeader.app */,
+				1F372B321D20D66600A47804 /* ZQWebViewHeaderTests.xctest */,
+				1F372B3D1D20D66600A47804 /* ZQWebViewHeaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F372B1B1D20D66600A47804 /* ZQWebViewHeader */ = {
+			isa = PBXGroup;
+			children = (
+				1F372B1F1D20D66600A47804 /* AppDelegate.h */,
+				1F372B201D20D66600A47804 /* AppDelegate.m */,
+				1F372B221D20D66600A47804 /* ViewController.h */,
+				1F372B231D20D66600A47804 /* ViewController.m */,
+				1F372B251D20D66600A47804 /* Main.storyboard */,
+				1F372B281D20D66600A47804 /* Assets.xcassets */,
+				1F372B2A1D20D66600A47804 /* LaunchScreen.storyboard */,
+				1F372B2D1D20D66600A47804 /* Info.plist */,
+				1F372B1C1D20D66600A47804 /* Supporting Files */,
+			);
+			path = ZQWebViewHeader;
+			sourceTree = "<group>";
+		};
+		1F372B1C1D20D66600A47804 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F372B1D1D20D66600A47804 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F372B351D20D66600A47804 /* ZQWebViewHeaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F372B361D20D66600A47804 /* ZQWebViewHeaderTests.m */,
+				1F372B381D20D66600A47804 /* Info.plist */,
+			);
+			path = ZQWebViewHeaderTests;
+			sourceTree = "<group>";
+		};
+		1F372B401D20D66600A47804 /* ZQWebViewHeaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1F372B411D20D66600A47804 /* ZQWebViewHeaderUITests.m */,
+				1F372B431D20D66600A47804 /* Info.plist */,
+			);
+			path = ZQWebViewHeaderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F372B181D20D66500A47804 /* ZQWebViewHeader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F372B461D20D66600A47804 /* Build configuration list for PBXNativeTarget "ZQWebViewHeader" */;
+			buildPhases = (
+				1F372B151D20D66500A47804 /* Sources */,
+				1F372B161D20D66500A47804 /* Frameworks */,
+				1F372B171D20D66500A47804 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZQWebViewHeader;
+			productName = ZQWebViewHeader;
+			productReference = 1F372B191D20D66500A47804 /* ZQWebViewHeader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F372B311D20D66600A47804 /* ZQWebViewHeaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F372B491D20D66600A47804 /* Build configuration list for PBXNativeTarget "ZQWebViewHeaderTests" */;
+			buildPhases = (
+				1F372B2E1D20D66600A47804 /* Sources */,
+				1F372B2F1D20D66600A47804 /* Frameworks */,
+				1F372B301D20D66600A47804 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F372B341D20D66600A47804 /* PBXTargetDependency */,
+			);
+			name = ZQWebViewHeaderTests;
+			productName = ZQWebViewHeaderTests;
+			productReference = 1F372B321D20D66600A47804 /* ZQWebViewHeaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1F372B3C1D20D66600A47804 /* ZQWebViewHeaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F372B4C1D20D66600A47804 /* Build configuration list for PBXNativeTarget "ZQWebViewHeaderUITests" */;
+			buildPhases = (
+				1F372B391D20D66600A47804 /* Sources */,
+				1F372B3A1D20D66600A47804 /* Frameworks */,
+				1F372B3B1D20D66600A47804 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F372B3F1D20D66600A47804 /* PBXTargetDependency */,
+			);
+			name = ZQWebViewHeaderUITests;
+			productName = ZQWebViewHeaderUITests;
+			productReference = 1F372B3D1D20D66600A47804 /* ZQWebViewHeaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F372B111D20D66500A47804 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = zhangqq.com;
+				TargetAttributes = {
+					1F372B181D20D66500A47804 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					1F372B311D20D66600A47804 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1F372B181D20D66500A47804;
+					};
+					1F372B3C1D20D66600A47804 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1F372B181D20D66500A47804;
+					};
+				};
+			};
+			buildConfigurationList = 1F372B141D20D66500A47804 /* Build configuration list for PBXProject "ZQWebViewHeader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F372B101D20D66500A47804;
+			productRefGroup = 1F372B1A1D20D66500A47804 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F372B181D20D66500A47804 /* ZQWebViewHeader */,
+				1F372B311D20D66600A47804 /* ZQWebViewHeaderTests */,
+				1F372B3C1D20D66600A47804 /* ZQWebViewHeaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F372B171D20D66500A47804 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F372B2C1D20D66600A47804 /* LaunchScreen.storyboard in Resources */,
+				1F372B291D20D66600A47804 /* Assets.xcassets in Resources */,
+				1F372B271D20D66600A47804 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F372B301D20D66600A47804 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F372B3B1D20D66600A47804 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F372B151D20D66500A47804 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F372B241D20D66600A47804 /* ViewController.m in Sources */,
+				1F372B211D20D66600A47804 /* AppDelegate.m in Sources */,
+				1F372B1E1D20D66600A47804 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F372B2E1D20D66600A47804 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F372B371D20D66600A47804 /* ZQWebViewHeaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F372B391D20D66600A47804 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F372B421D20D66600A47804 /* ZQWebViewHeaderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F372B341D20D66600A47804 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F372B181D20D66500A47804 /* ZQWebViewHeader */;
+			targetProxy = 1F372B331D20D66600A47804 /* PBXContainerItemProxy */;
+		};
+		1F372B3F1D20D66600A47804 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F372B181D20D66500A47804 /* ZQWebViewHeader */;
+			targetProxy = 1F372B3E1D20D66600A47804 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F372B251D20D66600A47804 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F372B261D20D66600A47804 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F372B2A1D20D66600A47804 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F372B2B1D20D66600A47804 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F372B441D20D66600A47804 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1F372B451D20D66600A47804 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F372B471D20D66600A47804 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZQWebViewHeader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangqq.Q.ZQWebViewHeader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1F372B481D20D66600A47804 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZQWebViewHeader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangqq.Q.ZQWebViewHeader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1F372B4A1D20D66600A47804 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZQWebViewHeaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangqq.Q.ZQWebViewHeaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZQWebViewHeader.app/ZQWebViewHeader";
+			};
+			name = Debug;
+		};
+		1F372B4B1D20D66600A47804 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZQWebViewHeaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangqq.Q.ZQWebViewHeaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZQWebViewHeader.app/ZQWebViewHeader";
+			};
+			name = Release;
+		};
+		1F372B4D1D20D66600A47804 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZQWebViewHeaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangqq.Q.ZQWebViewHeaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZQWebViewHeader;
+			};
+			name = Debug;
+		};
+		1F372B4E1D20D66600A47804 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZQWebViewHeaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangqq.Q.ZQWebViewHeaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZQWebViewHeader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F372B141D20D66500A47804 /* Build configuration list for PBXProject "ZQWebViewHeader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F372B441D20D66600A47804 /* Debug */,
+				1F372B451D20D66600A47804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F372B461D20D66600A47804 /* Build configuration list for PBXNativeTarget "ZQWebViewHeader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F372B471D20D66600A47804 /* Debug */,
+				1F372B481D20D66600A47804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1F372B491D20D66600A47804 /* Build configuration list for PBXNativeTarget "ZQWebViewHeaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F372B4A1D20D66600A47804 /* Debug */,
+				1F372B4B1D20D66600A47804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1F372B4C1D20D66600A47804 /* Build configuration list for PBXNativeTarget "ZQWebViewHeaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F372B4D1D20D66600A47804 /* Debug */,
+				1F372B4E1D20D66600A47804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F372B111D20D66500A47804 /* Project object */;
+}
