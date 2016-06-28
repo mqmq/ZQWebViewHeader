@@ -15,6 +15,7 @@
 		1F372B2C1D20D66600A47804 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F372B2A1D20D66600A47804 /* LaunchScreen.storyboard */; };
 		1F372B371D20D66600A47804 /* ZQWebViewHeaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F372B361D20D66600A47804 /* ZQWebViewHeaderTests.m */; };
 		1F372B421D20D66600A47804 /* ZQWebViewHeaderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F372B411D20D66600A47804 /* ZQWebViewHeaderUITests.m */; };
+		1F372B511D20D68D00A47804 /* ZQWebViewHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F372B501D20D68D00A47804 /* ZQWebViewHeader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		1F372B3D1D20D66600A47804 /* ZQWebViewHeaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZQWebViewHeaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F372B411D20D66600A47804 /* ZQWebViewHeaderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZQWebViewHeaderUITests.m; sourceTree = "<group>"; };
 		1F372B431D20D66600A47804 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F372B4F1D20D68D00A47804 /* ZQWebViewHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQWebViewHeader.h; sourceTree = "<group>"; };
+		1F372B501D20D68D00A47804 /* ZQWebViewHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQWebViewHeader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 				1F372B221D20D66600A47804 /* ViewController.h */,
 				1F372B231D20D66600A47804 /* ViewController.m */,
 				1F372B251D20D66600A47804 /* Main.storyboard */,
+				1F372B4F1D20D68D00A47804 /* ZQWebViewHeader.h */,
+				1F372B501D20D68D00A47804 /* ZQWebViewHeader.m */,
 				1F372B281D20D66600A47804 /* Assets.xcassets */,
 				1F372B2A1D20D66600A47804 /* LaunchScreen.storyboard */,
 				1F372B2D1D20D66600A47804 /* Info.plist */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F372B241D20D66600A47804 /* ViewController.m in Sources */,
+				1F372B511D20D68D00A47804 /* ZQWebViewHeader.m in Sources */,
 				1F372B211D20D66600A47804 /* AppDelegate.m in Sources */,
 				1F372B1E1D20D66600A47804 /* main.m in Sources */,
 			);
