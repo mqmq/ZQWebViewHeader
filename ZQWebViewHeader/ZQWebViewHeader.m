@@ -29,7 +29,7 @@ CGRectSetH(CGRect rect, CGFloat h)
     return  rect;
 }
 
-@interface ZQWebViewHeader()<UIWebViewDelegate>
+@interface ZQWebViewHeader()
 
 @property (nonatomic,strong)UIView *zqBrowserView;
 
@@ -46,10 +46,10 @@ CGRectSetH(CGRect rect, CGFloat h)
     return self;
 }
 
-- (void)reloadFootderFrame {
+- (void)reloadFooterFrame {
     CGSize contentSize = self.scrollView.contentSize;
-    _footder.frame = CGRectSetY(_footder.frame,CGRectGetMaxY(_zqBrowserView.frame));
-    self.scrollView.contentSize = CGSizeMake(contentSize.width, CGRectGetMaxY(_zqBrowserView.frame) + _footder.frame.size.height);
+    _footer.frame = CGRectSetY(_footer.frame,CGRectGetMaxY(_zqBrowserView.frame));
+    self.scrollView.contentSize = CGSizeMake(contentSize.width, CGRectGetMaxY(_zqBrowserView.frame) + _footer.frame.size.height);
 }
 
 //set header
@@ -65,14 +65,14 @@ CGRectSetH(CGRect rect, CGFloat h)
 //set fooderView
 - (void)setFootder:(UIView *)footder {
     
-    if (_footder) {
-        [_footder removeFromSuperview];
-        _footder = nil;
+    if (_footer) {
+        [_footer removeFromSuperview];
+        _footer = nil;
     }
-    _footder = footder;
+    _footer = footder;
     [self.scrollView addSubview:footder];
-    self.delegate = self;
-    [self reloadFootderFrame];
+    [self reloadFooterFrame];
+    [self addObserver];
 }
 
 - (void)setHeaderHight:(CGFloat)hight animate:(BOOL)animate {
@@ -81,18 +81,25 @@ CGRectSetH(CGRect rect, CGFloat h)
         _header.frame = CGRectSetH(_header.frame, hight);
         _zqBrowserView.frame = CGRectSetY(_zqBrowserView.frame, hight);
     } completion:^(BOOL finished) {
-        [self reloadFootderFrame];
+        [self reloadFooterFrame];
     }];
 }
 
-//UIWebViewDelegate
-- (void)webViewDidFinishLoad:(UIWebView *)webView {
+//UIScrollViewDelegate
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView {
     
-    if (_footder) {
-        [self addObserver];
-        [self reloadFootderFrame];
+    //缩小到小于webview宽度时
+    CGFloat w = scrollView.frame.size.width;
+    if (scrollView.contentSize.width < w) {
+        CGSize contentSize = scrollView.contentSize;
+        contentSize.width = w;
+        scrollView.contentSize = contentSize;
     }
+    //左右露边
+    _header.frame = CGRectSetX(_header.frame, scrollView.contentOffset.x);
+    _footer.frame = CGRectSetX(_footer.frame, scrollView.contentOffset.x);
 }
+
 //observer
 - (void)addObserver {
     [self.scrollView addObserver:self forKeyPath:@"contentSize" options:NSKeyValueObservingOptionNew context:nil];
@@ -103,7 +110,7 @@ CGRectSetH(CGRect rect, CGFloat h)
 }
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSString *,id> *)change context:(void *)context {
     [self removeObserver];
-    [self reloadFootderFrame];
+    [self reloadFooterFrame];
     [self addObserver];
 }
 @end

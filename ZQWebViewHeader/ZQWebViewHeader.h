@@ -14,7 +14,7 @@
 //webview头
 @property (nonatomic,strong)UIView *header;
 //webview尾
-@property (nonatomic,strong)UIView *footder;
+@property (nonatomic,strong)UIView *footer;
 
 //调整头区高度
 - (void)setHeaderHight:(CGFloat)hight animate:(BOOL)animate;
